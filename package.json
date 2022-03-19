@@ -42,6 +42,11 @@
       "last 1 safari version"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "lint-staged": {
     "*.{js,css,md,ts,tsx}": "prettier --write",
     "*.{js,ts}": "eslint --fix"
@@ -50,6 +55,8 @@
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^7.0.4",
     "prettier": "^2.6.0"
