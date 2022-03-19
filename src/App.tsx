@@ -2,9 +2,6 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-const a = "fweew";
-console.log("kkk");
-
 function App() {
   return (
     <div className="App">
