@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-const a = 555;
+console.log('kkk')
 
 function App() {
   return (
